@@ -1,88 +1,177 @@
 * {
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
-div .col .colors {
-    margin: 0;
-    padding: 0;
+
+/*---------------------------------------------------Header-Inicio---------------------------------------------------------------*/
+
+
+/*header {
+    /*text-align: left;
+    padding-top: 1.5rem;
+    height: 90vh;
+    background: url(../img/foto3.png) center center / cover repeat scroll;*/
+
+
+/*}*/
+
+.jumbotron {
+    background-color: #F6B3D8;
+    margin-bottom: 0;
+    padding: 2rem 0 1rem 0;
 }
 
-.redes {
-    padding-left: 0;
+.font-header {
+    /* padding-left: 5rem;*/
+    font-family: 'Merienda', bold;
+    color: rgba(189, 30, 117, 1);
+    text-align: center;
 }
+
+p.font-header {}
+
+
+/*------------------------------------------------Barra de Navegación--------------------------------------------------------------*/
 
 #logo {
     height: 36px;
 }
 
-.colors {
-    position: fixed;
-    /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
-    left: 0;
-    /* Establecemos la barra en la izquierda */
-    z-index: 2000;
-    /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+.navbar {
+    background: #BD1E75;
 }
 
-.colors ul {
-    list-style: none;
-}
-
-.colors ul li a {
-    display: inline-block;
+a {
     color: #fff;
-    background: #000;
-    padding: 10px 15px;
-    text-decoration: none;
-    /* Establecemos una transición a todas las propiedades */
-    -webkit-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:hover {
+    color: #000;
 }
 
 
-/* 
-* Establecemos los colores de cada red social, aprovechando su class 
-* Cambiamos el fondo cuando el usuario pase el mouse 
-* Hacemos mas grande el espacio cuando el usuario pase el mouse 
-*/
+/*---------------------------------------------------Redes Sociales---------------------------------------------------------------*/
+
+.social-bar {
+    padding-right: 0;
+}
+
+.social-bar {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon {
+    color: #fff;
+    background: #BD1E75;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon:first-child {
+    border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+    border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
 
 .icon-instagram:hover {
-    padding: 10px 20px;
     background: linear-gradient(198deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
 }
 
 .icon-facebook:hover {
-    padding: 10px 20px;
     background: #4267b2;
 }
 
 .icon-twitter:hover {
-    padding: 10px 20px;
     background: #2daae4;
 }
 
-.icon-github:hover {
-    padding: 10px 20px;
-    background: #fff;
-    color: #000;
-}
-
 .icon-pinterest:hover {
-    padding: 10px 20px;
     background: #e00118;
 }
 
 .icon-mail2:hover {
-    padding: 10px 20px;
     background: #ca4b3f;
 }
 
 .icon-youtube:hover {
-    padding: 10px 20px;
     background: #ff0100;
 }
+
+.icon-github:hover {
+    background: #fff;
+    color: #000;
+}
+
+
+/*---------------------------------------------------Sobre mí---------------------------------------------------------------*/
+
+#sobremi {
+    background-color: yellowgreen;
+}
+
+
+/*---------------------------------------------------Cualidades---------------------------------------------------------------*/
+
+#cualidades {
+    background-color: pink;
+}
+
+
+/*---------------------------------------------------Curriculum---------------------------------------------------------------*/
+
+#curriculum {
+    background-color: yellowgreen;
+}
+
+
+/*---------------------------------------------------Premios---------------------------------------------------------------*/
+
+#premios {
+    background-color: pink;
+}
+
+
+/*---------------------------------------------------Aptitudes---------------------------------------------------------------*/
+
+#aptitudes {
+    background-color: yellowgreen;
+}
+
+
+/*---------------------------------------------------Contacto---------------------------------------------------------------*/
+
+#contacto {
+    background-color: pink;
+}
+
+
+/*---------------------------------------------------Footer---------------------------------------------------------------*/
+
+footer {
+    background-color: violet;
+    text-align: center;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/

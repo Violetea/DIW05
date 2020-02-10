@@ -10,21 +10,47 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-    <link rel="stylesheet" href="./css/custom.css" type="text/css">
-    <link rel="stylesheet" href="./css/fonts.css" type="text/css">
+    <link rel="stylesheet" href="../css/custom.css" type="text/css">
+    <link rel="stylesheet" href="../css/fonts.css" type="text/css">
+    <!-- Tipografías -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merienda&display=swap">
 </head>
 
 <body>
-    <!--Barra de navegación-->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top" id="menu">
-        <!--Colapsa el menú bajo el icono de la hamburguesa-->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#id_reducir">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!--Logo con mi nombre "Andrea Lamus, con enlace al inicio de la página"-->
+
+    <!-- INICIO: Apartado en el que aparecerá tu nombre y el acceso a tus redes sociales. -->
+    <header id="inicio">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-5 font-header text-sm-center ">Hola, soy <span class="display-4">Andrea Lamus</span></h1>
+                <p class="font-header text-sm-center">Esta es mi p&aacute;gina personal.</p>
+            </div>
+        </div>
+        <div class="col social-bar">
+            <a href="http://www.instagram.com/" class="icon icon-instagram "></a>
+            <a href="http://www.facebook.com/" class="icon icon-facebook "></a>
+            <a href="http://www.pinterest.com/" class="icon icon-pinterest "></a>
+            <a href="http://www.twitter.com/" class="icon icon-twitter "></a>
+            <a href="mailto:violetacolors@gmail.com" class="icon icon-mail2"></a>
+            <a href="http://www.github.com/violetea/" class="icon icon-github "></a>
+            <a href="http://www.youtube.com/ " class="icon icon-youtube "></a>
+        </div>
+    </header>
+    <!-- Fin del apartado Inicio. -->
+
+
+    <!-- Barra de navegación. -->
+    <nav class="navbar navbar-expand-md sticky-top" id="menu">
+
+        <!-- Colapsa el menú bajo el icono de la hamburguesa. -->
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#id_reducir">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        <!-- Logo con mi nombre "Andrea Lamus, con enlace al inicio de la página. "-->
         <a class="navbar-brand" href="#inicio">
-            <img class="w-1" src="./img/a_l.png" alt="Logo Andrea Lamus" copyright="c https://es.freelogodesign.org  cc-by https://thenounproject.com" id="logo">
+            <img class="logo" id="logo" src="../img/logo_blanco.png" alt="Logo" copyright="c https://es.freelogodesign.org  cc-by https://thenounproject.com">
         </a>
+
         <!--Lista del menú-->
         <div class="collapse navbar-collapse justify-content-sm-end" id="id_reducir">
             <ul class="navbar-nav">
@@ -38,49 +64,96 @@
             </ul>
         </div>
     </nav>
-    <!--Fin menú de navegación-->
+    <!-- Fin menú de navegación. -->
 
-    <!--INICIO: Apartado en el que aparecerá tu nombre y el acceso a tus redes sociales-->
-    <header class="container-fluid bg-info">
-        <div class="row">
-            <div class="col-12 h1 ">Hola, soy Andrea Lamus</div>
-        </div>
-        <div class="row ">
-            <div class="col-12 redes colors">
-                <ul>
-                    <li>
-                        <a href="http://www.instagram.com/" class="icon-instagram "></a>
-                    </li>
-                    <li>
-                        <a href="http://www.facebook.com/" class="icon-facebook "></a>
-                    </li>
 
-                    <li>
-                        <a href="http://www.pinterest.com/" class="icon-pinterest "></a>
-                    </li>
-                    <li>
-                        <a href="http://www.twitter.com/" class="icon-twitter "></a>
-                    </li>
-                    <li>
-                        <a href="mailto:violetacolors@gmail.com" class="icon-mail2"></a>
-                    </li>
-                    <li>
-                        <a href="http://www.github.com/violetea/" class="icon-github "></a>
-                    </li>
 
-                    <li>
-                        <a href="http://www.youtube.com/ " class="icon-youtube "></a>
-                    </li>
-                </ul>
+    <main class="container-fluid">
+        <!-- SOBRE MI: Apartado en el que realizas una pequeña presentación y aparecerá una imagen tuya. -->
+        <section class="row" id="sobremi">
+            <div class="col">
+                <br>
+                <br>
+                <h1>sobre mí</h1>
+                <br>
+                <br>
             </div>
-        </div>
 
-    </header>
-    <main class="container ">
+        </section>
+        <!-- Fin del apartado Sobre mí. -->
 
+        <!-- CUALIDADES: Apartado en el que detallas todas tus buenas cualidades. -->
+
+        <section class="row" id="cualidades">
+            <div class="col">
+                <br>
+                <br>
+                <h1>cualidades</h1>
+                <br>
+                <br>
+            </div>
+
+        </section>
+        <!-- Fin del apartado Cualidades. -->
+
+        <!-- CURRICULUM: Apartado en el que describes tu curriculum. -->
+
+        <section class="row" id="curriculum">
+            <div class="col">
+                <br>
+                <br>
+                <h1>curriculum</h1>
+                <br>
+                <br>
+            </div>
+
+        </section>
+        <!-- Fin del apartadoCurriculum. -->
+
+        <!-- PREMIOS: Apartado en el que detallas los premios de diseño que has ganado. -->
+
+        <section class="row" id="premios">
+            <div class="col">
+                <br>
+                <br>
+                <h1>premios</h1>
+                <br>
+                <br>
+            </div>
+
+        </section>
+        <!-- Fin del apartado Premios. -->
+
+        <!-- APTITUDES: Apartado en el que aparecen qué cosas te se dan mejor. -->
+        <section class="row" id="aptitudes">
+            <div class="col">
+                <br>
+                <br>
+                <h1>aptitudes</h1>
+                <br>
+                <br>
+            </div>
+
+        </section>
+        <!-- Fin del apartado Aptitudes. -->
+
+        <!-- CONTACTO: Apartado en el que detallas las formas en que la gente puede contactar contigo. La página web debe cumplir los siguientes requerimientos. -->
+        <section class="row" id="contacto">
+            <div class="col">
+                <br>
+                <br>
+                <h1>contacto</h1>
+                <br>
+                <br>
+            </div>
+
+        </section>
+        <!-- Fin del apartado Contacto. -->
     </main>
-    <footer>
-
+    <footer class="container">
+        <div class="row">
+            <div class="col">Iconos diseñados por <a href="https://icomoon.io/">www.icomoon.com</a></div>
+        </div>
     </footer>
 
     <!-- Optional JavaScript -->
