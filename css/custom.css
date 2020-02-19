@@ -1,177 +1,312 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-
-/*---------------------------------------------------Header-Inicio---------------------------------------------------------------*/
-
-
-/*header {
-    /*text-align: left;
-    padding-top: 1.5rem;
-    height: 90vh;
-    background: url(../img/foto3.png) center center / cover repeat scroll;*/
-
-
-/*}*/
-
-.jumbotron {
-    background-color: #F6B3D8;
-    margin-bottom: 0;
-    padding: 2rem 0 1rem 0;
-}
-
-.font-header {
-    /* padding-left: 5rem;*/
-    font-family: 'Merienda', bold;
-    color: rgba(189, 30, 117, 1);
-    text-align: center;
-}
-
-p.font-header {}
-
-
-/*------------------------------------------------Barra de Navegación--------------------------------------------------------------*/
-
-#logo {
-    height: 36px;
-}
-
-.navbar {
-    background: #BD1E75;
-}
-
-a {
-    color: #fff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-a:hover {
-    color: #000;
-}
-
-
-/*---------------------------------------------------Redes Sociales---------------------------------------------------------------*/
-
-.social-bar {
-    padding-right: 0;
-}
-
-.social-bar {
-    position: fixed;
-    right: 0;
-    top: 50%;
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    z-index: 100;
-}
-
-.icon {
-    color: #fff;
-    background: #BD1E75;
-    text-decoration: none;
-    padding: .7rem;
-    display: flex;
-    transition: all .5s;
-}
-
-.icon:first-child {
-    border-radius: 1rem 0 0 0;
-}
-
-.icon:last-child {
-    border-radius: 0 0 0 1rem;
-}
-
-.icon:hover {
-    color: #fff;
-    text-decoration: none;
-    padding-right: 3rem;
-    border-radius: 1rem 0 0 1rem;
-    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
-}
-
-.icon-instagram:hover {
-    background: linear-gradient(198deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
-}
-
-.icon-facebook:hover {
-    background: #4267b2;
-}
-
-.icon-twitter:hover {
-    background: #2daae4;
-}
-
-.icon-pinterest:hover {
-    background: #e00118;
-}
-
-.icon-mail2:hover {
-    background: #ca4b3f;
-}
-
-.icon-youtube:hover {
-    background: #ff0100;
-}
-
-.icon-github:hover {
-    background: #fff;
-    color: #000;
-}
-
-
-/*---------------------------------------------------Sobre mí---------------------------------------------------------------*/
-
-#sobremi {
-    background-color: yellowgreen;
-}
-
-
-/*---------------------------------------------------Cualidades---------------------------------------------------------------*/
-
-#cualidades {
-    background-color: pink;
-}
-
-
-/*---------------------------------------------------Curriculum---------------------------------------------------------------*/
-
-#curriculum {
-    background-color: yellowgreen;
-}
-
-
-/*---------------------------------------------------Premios---------------------------------------------------------------*/
-
-#premios {
-    background-color: pink;
-}
-
-
-/*---------------------------------------------------Aptitudes---------------------------------------------------------------*/
-
-#aptitudes {
-    background-color: yellowgreen;
-}
-
-
-/*---------------------------------------------------Contacto---------------------------------------------------------------*/
-
-#contacto {
-    background-color: pink;
-}
-
-
-/*---------------------------------------------------Footer---------------------------------------------------------------*/
-
-footer {
-    background-color: violet;
-    text-align: center;
-}
-
-
-/*---------------------------------------------------------------------------------------------------------------------------------*/
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Merienda', bold;
+        /*Establezco el estilo de la letra en el documento.*/
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+    /*---------------------------------------------------Header-Inicio---------------------------------------------------------------*/
+    
+    .jumbotron {
+        margin-bottom: 0;
+        padding: 2rem 0 1rem 0;
+        background-color: transparent;
+    }
+    
+    .font-header {
+        color: rgba(189, 30, 117, 1);
+        text-align: center;
+        text-shadow: 1px 1px 3px rgba(5, 5, 5, 0.493);
+    }
+    /*------------------------------------------------Barra de Navegación--------------------------------------------------------------*/
+    
+    #logo {
+        height: 36px;
+    }
+    
+    .navbar {
+        background: #BD1E75;
+    }
+    
+    a {
+        color: #fff;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    a:hover {
+        color: #000;
+    }
+    /*---------------------------------------------------Redes Sociales---------------------------------------------------------------*/
+    
+    .social-bar {
+        padding-right: 0;
+    }
+    
+    .social-bar {
+        position: fixed;
+        right: 0;
+        top: 50%;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        z-index: 100;
+    }
+    
+    .icon {
+        color: #fff;
+        background: #BD1E75;
+        text-decoration: none;
+        padding: .7rem;
+        display: flex;
+        transition: all .5s;
+    }
+    
+    .icon:first-child {
+        border-radius: 1rem 0 0 0;
+    }
+    
+    .icon:last-child {
+        border-radius: 0 0 0 1rem;
+    }
+    
+    .icon:hover {
+        color: #fff;
+        text-decoration: none;
+        padding-right: 3rem;
+        border-radius: 1rem 0 0 1rem;
+        box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+    }
+    
+    .icon-instagram:hover {
+        background: linear-gradient(198deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    }
+    
+    .icon-facebook:hover {
+        background: #4267b2;
+    }
+    
+    .icon-twitter:hover {
+        background: #2daae4;
+    }
+    
+    .icon-pinterest:hover {
+        background: #e00118;
+    }
+    
+    .icon-mail2:hover {
+        background: #ca4b3f;
+    }
+    
+    .icon-youtube:hover {
+        background: #ff0100;
+    }
+    
+    .icon-github:hover {
+        background: #fff;
+        color: #000;
+    }
+    /*---------------------------------------------------Sobre mí---------------------------------------------------------------*/
+    
+    div .foto {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        right: 0;
+    }
+    
+    #sobremi .texto-sobremi {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        color: rgb(104, 102, 102);
+    }
+    
+    .texto-sobremi h1 {
+        color: rgb(189, 30, 117);
+        text-shadow: 1px 1px 3px rgba(5, 5, 5, 0.493);
+    }
+    
+    #sobremi .texto-sobremi p span {
+        color: #000;
+        font-weight: bold;
+    }
+    /*---------------------------------------------------Cualidades---------------------------------------------------------------*/
+    
+    .p-texto {
+        color: rgb(104, 102, 102);
+    }
+    
+    .cc {
+        font-size: small;
+        color: rgb(197, 191, 191);
+    }
+    
+    .cc a {
+        color: rgb(139, 138, 138);
+        font-size: 10px;
+    }
+    /*---------------------------------------------------Curriculum---------------------------------------------------------------*/
+    
+    div .card-body {
+        box-shadow: 1px 1px 3px rgba(5, 5, 5, 0.493);
+    }
+    
+    .texto-curriculum {
+        color: rgb(104, 102, 102);
+    }
+    /*---------------------------------------------------Premios---------------------------------------------------------------*/
+    
+    .div-premio {
+        text-align: center;
+    }
+    
+    .div-premio p {
+        color: rgb(104, 102, 102);
+    }
+    
+    .text-color {
+        font-size: 40px;
+        color: rgb(234, 190, 63);
+        text-shadow: 1px 1px 3px rgba(104, 102, 102, 0.493);
+    }
+    /*---------------------------------------------------Aptitudes---------------------------------------------------------------*/
+    
+    .relleno1 {
+        background-color: #713EAF
+    }
+    
+    .relleno2 {
+        background-color: #8D5DC7
+    }
+    
+    .relleno3 {
+        background-color: #D0B4F0
+    }
+    /*---------------------------------------------------Contacto---------------------------------------------------------------*/
+    
+    #contacto {
+        width: 100%;
+        padding: 2rem;
+    }
+    
+    .color-btn {
+        background-color: rgb(189, 30, 117);
+        color: #fff;
+    }
+    
+    .color-btn:hover {
+        color: #000;
+    }
+    
+    .form-control {
+        background-color: rgba(246, 179, 216, 0.219);
+        border: none;
+    }
+    
+    .mis-datos {
+        border-right: 3px solid rgb(189, 30, 117);
+        height: 100%;
+    }
+    /*---------------------------------------------------Footer---------------------------------------------------------------*/
+    
+    footer {
+        text-align: center;
+        font-size: 12px;
+        background: #EB83BC;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        color: #fff;
+    }
+    
+    footer p {
+        font-size: 12px;
+        font-weight: 500;
+        margin-top: 0;
+        padding-top: 1rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .creditos {
+        padding: 0 0 1rem 0;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    /*---------------------------------------------------------------------------------------------------------------------------------*/
+    
+    @media (max-width: 575.98px) {
+        html {
+            font-size: 13px;
+        }
+        #logo {
+            height: 26px;
+        }
+        a.navbar-brand {
+            padding-right: 0;
+            margin: 0;
+        }
+        .jumbotron {
+            padding: 2rem 2rem 1rem 2rem;
+        }
+        .icon-xs {
+            padding: 0.2rem;
+            font-size: 18px;
+            text-decoration: none;
+        }
+        .icon-instagram:hover {
+            color: black;
+            background: transparent;
+            text-decoration: none;
+        }
+        .icon-facebook:hover {
+            color: black;
+            background: transparent;
+            text-decoration: none;
+        }
+        .icon-twitter:hover {
+            color: black;
+            background: transparent;
+            text-decoration: none;
+        }
+        .icon-pinterest:hover {
+            color: black;
+            background: transparent;
+            text-decoration: none;
+        }
+        .icon-mail2:hover {
+            color: black;
+            background: transparent;
+            text-decoration: none;
+        }
+        .icon-youtube:hover {
+            color: black;
+            background: transparent;
+            text-decoration: none;
+        }
+        .icon-github:hover {
+            color: black;
+            background: transparent;
+            text-decoration: none;
+        }
+        .div-aptitudes {
+            margin-left: 2rem;
+        }
+        .mis-datos {
+            border-right: 0;
+        }
+    }
+    
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        .mis-datos {
+            border-right: 0;
+        }
+    }
+    
+    @media (min-width: 768px) {
+        #sobremi .texto-sobremi {
+            padding-left: 4rem;
+            padding-right: 4rem;
+        }
+    }
